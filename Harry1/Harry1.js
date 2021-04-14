@@ -1,5 +1,6 @@
 function inicioHogwarts() 
 {
+
         var abrirCarta = prompt("Você aceita o convite para Hogwarts? 1:Sim 2: Não");
 
         if (abrirCarta == 1)
