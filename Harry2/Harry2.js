@@ -1,25 +1,25 @@
-function inicioHogwarts() 
+function harryFase2() 
 {
-        var abrirCarta = prompt("Você aceita o convite para Hogwarts? 1:Sim 2: Não");
+        var atravessaParede = prompt("Você confia na familia Weasley e atravessa a parede? 1:Sim 2: Não");
 
-        if (abrirCarta == 1)
+        if (atravessaParede == 1)
         {
             document.write (`
-            <h1> Prezado Sr. Potter,
-            Temos o prazer de informar que V. Sa. ${abrirCarta} tem uma vaga na Escola de Magia e Bruxaria de Hogwarts. 
+            <h1> Bem vinda a plataforma 9 3/4,
+            Temos o prazer de informar que V. Sa. ${atravessaParede} tem uma vaga na Escola de Magia e Bruxaria de Hogwarts. 
             </h1>
         `);
         }
 
-        else if (abrirCarta == 2){
+        else if (atravessaParede == 2){
         
             document.write (`
-            <h1> ${abrirCarta}. Você se tornará um elfo domestico dos Durleys para sempre.</h1>
+            <h1> ${atravessaParede}. Você se tornará um elfo domestico dos Durleys para sempre.</h1>
             `);
         }
         else {
             alert('Escolha errada. Tente novamente!');
-            inicioHogwarts();
+            harryFase2();
         }          
 }   
-    inicioHogwarts()
+    harryFase2()
